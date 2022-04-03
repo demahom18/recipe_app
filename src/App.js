@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-
+import Pages from "./pages/Pages.jsx"
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+        <nav>
+            
+        </nav>
+        <Pages />
     </div>
   );
 }
