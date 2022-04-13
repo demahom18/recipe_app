@@ -17,7 +17,7 @@ export default function useLocalStorage(item) {
             const url = `https://api.spoonacular.com/recipes/random?apiKey=${apiKey}&number=3`
             
             const response = await fetch(url)
-            const results = await response.json()
+            const results = await response.json()   
             
             localStorage.setItem(item, JSON.stringify(results.recipes))
             setData(results.recipes)

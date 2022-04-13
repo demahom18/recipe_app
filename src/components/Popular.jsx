@@ -38,14 +38,14 @@ export default function Popular() {
 }
 
 const RecipeWrapper = styled.div`
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
 `
 
 const RecipeCard = styled.div`
     border-radius: 2rem;
     overflow: hidden;
     min-height: 25rem;
-    position: relative;
+    position: relative; 
 
     img {
         border-radius: 2rem;
